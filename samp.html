@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Web Page</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:linear-gradient(to right, #6dd5ed, #2193b0);
+    }
+
+    header{
+        background:#ff6f61;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
+
+    nav{
+        background:#333;
+        text-align:center;
+        padding:12px;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:20px;
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        color:yellow;
+    }
+
+    .hero{
+        text-align:center;
+        padding:60px;
+        color:white;
+    }
+
+    .hero h2{
+        font-size:40px;
+    }
+
+    .container{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        margin:30px;
+        flex-wrap:wrap;
+    }
+
+    .card{
+        background:white;
+        width:250px;
+        padding:20px;
+        border-radius:12px;
+        box-shadow:0 5px 10px gray;
+        text-align:center;
+    }
+
+    .card h3{
+        color:#ff6f61;
+    }
+
+    .card button{
+        background:#2193b0;
+        color:white;
+        border:none;
+        padding:10px 20px;
+        margin-top:15px;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    .card button:hover{
+        background:#ff6f61;
+    }
+
+    footer{
+        background:#333;
+        color:white;
+        text-align:center;
+        padding:15px;
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌈 My Colorful Web Page</h1>
+    <p>Welcome to my sample website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Hello, Welcome!</h2>
+    <p>Create beautiful websites using HTML and CSS.</p>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h3>HTML</h3>
+        <p>HTML creates the structure of a web page.</p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="card">
+        <h3>CSS</h3>
+        <p>CSS adds colors, layouts, and attractive designs.</p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="card">
+        <h3>JavaScript</h3>
+        <p>JavaScript makes web pages interactive.</p>
+        <button>Learn More</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 My Colorful Website | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
